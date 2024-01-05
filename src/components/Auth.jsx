@@ -27,7 +27,7 @@ function Auth({register}) {
                                 registerForm?'sign up for project fair':'sign in for project fair'
                             }
                         </h4>
-                        <form>
+                        <form className='w-100 mt-4'>
                           {
                            registerForm && 
                            <Form.Group className="mb-3" controlId="formGroupEmail" >
